@@ -88,3 +88,11 @@ func main() {
 ### Result
 
 ![Example Server Result](/assets/example-server-result.png?raw=true "Example Server Result")
+
+## Credits
+
+- [Todd Griffin](https://github.com/MagnusFrater) - Author
+
+## License
+
+[MIT](/LICENSE)
