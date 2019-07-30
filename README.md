@@ -8,7 +8,17 @@ An open-source Go(lang) library for server side rendering Font Awesome icons.
 2) Once downloaded, find the `icons.json` file in the `metadata/` sub-directory (full path: `fontawesome-free-X.X.X-desktop/metadata/icons.json`).
 3) Copy the `icons.json` file into your repository. (e.g. `repo/static/`)
 
+## Try it out!
+
+1) `go get github.com/MagnusFrater/fontawesome`
+2) `cd examples/example-server/`
+3) `go run example-server.go`
+4) Visit `localhost:8080` in your favourite browser!
+
 ## How to use
+
+1) `go get github.com/MagnusFrater/fontawesome`
+2) Learn how to integrate it into your project below!
 
 ```go
 package main
@@ -50,7 +60,8 @@ func main() {
   <body>
     {{fontawesome "fas" "home"}}
     {{fontawesome "fas" "hamburger"}}
-    {{fontawesome "fas" "dice"}}
+		{{fontawesome "fas" "dice"}}
+		{{fontawesome "fas" "american-sign-language-interpreting"}}
   </body>
 </html>
 `
