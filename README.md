@@ -2,20 +2,22 @@
 
 An open-source Go(lang) library for server side rendering Font Awesome icons.
 
-## Setup
-
-1) Download the [Font Awesome for Desktop](https://fontawesome.com/how-to-use/on-the-desktop/setup/getting-started) package.
-2) Once downloaded, find the `icons.json` file in the `metadata/` sub-directory (full path: `fontawesome-free-X.X.X-desktop/metadata/icons.json`).
-3) Copy the `icons.json` file into your repository. (e.g. `repo/static/`)
-
 ## Try it out!
+
+_This pre-built example is comprised of the simple 'Setup' + 'How to integrate' steps below :)_
 
 1) `go get github.com/MagnusFrater/fontawesome`
 2) `cd examples/example-server/`
 3) `go run example-server.go`
 4) Visit `localhost:8080` in your favourite browser!
 
-## How to use
+## Setup
+
+1) Download the [Font Awesome for Desktop](https://fontawesome.com/how-to-use/on-the-desktop/setup/getting-started) package.
+2) Once downloaded, find the `icons.json` file in the `metadata/` sub-directory (full path: `fontawesome-free-X.X.X-desktop/metadata/icons.json`).
+3) Copy the `icons.json` file into your repository. (e.g. `repo/static/`)
+
+## How to integrate
 
 1) `go get github.com/MagnusFrater/fontawesome`
 2) Follow the example below to learn how to integrate it into your projects!
