@@ -28,13 +28,12 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	// add the library's `SVG` function to your template FuncMap
+	// create a FuncMap and create a new mapping for the new Font Awesome library's `SVG` function
 	funcMap := template.FuncMap{
 		"fontawesome": fa.SVG,
 	}
 
-	// call the 'fontawesome' FuncMap function in your templates
-	// it takes two parameters:
+	// call the 'fontawesome' mapped function in your template(s); it takes two parameters:
 	// 1) icon prefix (e.g. "fab" = brands, "fal" = light, "far" = regular, "fas" = solid)
 	// 2) icon name
 	const exampleTemplate = `
@@ -56,7 +55,7 @@ func main() {
 </html>
 `
 
-	// Create a template, add the function map, and parse the text.
+	// create a template, add the `funcMap`, and parse the `exampleTemplate`
 	tmpl, err := template.New("fontawesomeTest").Funcs(funcMap).Parse(exampleTemplate)
 	if err != nil {
 		log.Fatalf("parsing: %s", err)
@@ -68,7 +67,11 @@ func main() {
 	})
 
 	// run the example server
+	log.Println("Listening on localhost:8080!")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
-
 ```
+
+### Result
+
+![Example Server Result](/assets/example-server-result.png?raw=true "Example Server Result")
