@@ -1,4 +1,4 @@
-# Golang Font Awesome
+# Go(lang) SSR Font Awesome library
 
 An open-source Go(lang) library for server side rendering Font Awesome icons.
 
@@ -18,7 +18,7 @@ An open-source Go(lang) library for server side rendering Font Awesome icons.
 ## How to use
 
 1) `go get github.com/MagnusFrater/fontawesome`
-2) Learn how to integrate it into your project below!
+2) Follow the example below to learn how to integrate it into your projects!
 
 ```go
 package main
