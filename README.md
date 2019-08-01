@@ -1,6 +1,6 @@
 # Go(lang) SSR Font Awesome library
 
-An open-source Go(lang) library for server side rendering Font Awesome icons.
+A free (as in beer), open-source Go(lang) library for server side rendering Font Awesome icons.
 
 ## Try it out!
 
