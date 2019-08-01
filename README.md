@@ -62,8 +62,8 @@ func main() {
   <body>
     {{fontawesome "fas" "home"}}
     {{fontawesome "fas" "hamburger"}}
-		{{fontawesome "fas" "dice"}}
-		{{fontawesome "fas" "american-sign-language-interpreting"}}
+    {{fontawesome "fas" "dice"}}
+    {{fontawesome "fas" "american-sign-language-interpreting"}}
   </body>
 </html>
 `
