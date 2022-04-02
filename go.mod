@@ -1,3 +1,3 @@
-module github.com/MagnusFrater/fontawesome
+module github.com/goddtriffin/fontawesome
 
-go 1.14
+go 1.18

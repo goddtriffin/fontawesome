@@ -2,16 +2,19 @@
 
 An open-source [Go(lang)](https://golang.org/) library for server-side-rendering [Font Awesome](https://fontawesome.com/) icons.
 
+**Project is under active maintenance - even if there are no recent commits! Please submit an issue / bug request if you the library needs updating for any reason!**
+
+
 ## Setup
 
-1. `go get -u github.com/MagnusFrater/fontawesome`
+1. `go get -u github.com/goddtriffin/fontawesome`
 2. Download the [Font Awesome for Desktop](https://fontawesome.com/how-to-use/on-the-desktop/setup/getting-started) package.
 3. Once downloaded, find `metadata/icons.json` (full path: `fontawesome-free-X.X.X-desktop/metadata/icons.json`).
 4. Copy the `icons.json` file into your repository (e.g. `repo/static/`).
 
 ## Example
 
-1. `git clone https://github.com/MagnusFrater/fontawesome`
+1. `git clone https://github.com/goddtriffin/fontawesome`
 2. `cd examples/example-server/`
 3. `go run example-server.go`
 4. Visit `localhost:8080` in your favourite browser!
@@ -24,7 +27,7 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/MagnusFrater/fontawesome"
+	"github.com/goddtriffin/fontawesome"
 )
 
 func main() {
@@ -84,7 +87,7 @@ func main() {
 
 ## Credits
 
-- [Todd Griffin](https://github.com/MagnusFrater) - Author
+- [Todd Griffin](https://github.com/goddtriffin) - Author
 
 ## License
 

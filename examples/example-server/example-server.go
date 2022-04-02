@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/MagnusFrater/fontawesome"
+	"github.com/goddtriffin/fontawesome"
 )
 
 func main() {
