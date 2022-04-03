@@ -1,9 +1,10 @@
 # Go(lang) SSR Font Awesome library
 
+[![Go Report Card](https://goreportcard.com/badge/goddtriffin/fontawesome)](https://goreportcard.com/report/goddtriffin/fontawesome)
+
 An open-source [Go(lang)](https://golang.org/) library for server-side-rendering [Font Awesome](https://fontawesome.com/) icons.
 
 **Project is under active maintenance - even if there are no recent commits! Please submit an issue / bug request if you the library needs updating for any reason!**
-
 
 ## Setup
 
@@ -13,6 +14,8 @@ An open-source [Go(lang)](https://golang.org/) library for server-side-rendering
 4. Copy the `icons.json` file into your repository (e.g. `repo/static/`).
 
 ## Example
+
+You can see more in the [documentation](https://pkg.go.dev/github.com/goddtriffin/fontawesome).
 
 1. `git clone https://github.com/goddtriffin/fontawesome`
 2. `cd examples/example-server/`
@@ -87,8 +90,6 @@ func main() {
 
 ## Credits
 
-- [Todd Griffin](https://github.com/goddtriffin) - Author
+Made with 🤬 and 🥲 by [Todd Everett Griffin](https://www.toddgriffin.me/)
 
-## License
-
-[MIT](/LICENSE)
+Helmet is open source under the [MIT License](https://github.com/goddtriffin/helmet/blob/master/LICENSE).
